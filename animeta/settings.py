@@ -14,6 +14,8 @@ BOT_NAME = 'animeta'
 SPIDER_MODULES = ['animeta.spiders']
 NEWSPIDER_MODULE = 'animeta.spiders'
 
+COOKIES_ENABLED = False
+
 
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
 #USER_AGENT = 'animeta (+http://www.yourdomain.com)'
